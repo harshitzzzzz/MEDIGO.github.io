@@ -1,0 +1,299 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.navbar {
+display: flex;
+width:100%;
+border:1px solid black;
+
+}
+.nav-item{
+padding: 10px 20px;
+
+-webkit-text-fill-color: #000000;
+font-size: large;
+text-decoration: none;
+transition: transform 0.3s;
+}
+.nav-item:hover {
+background-color: #07d4f8;
+border-radius: 10px;
+transform: scale(1.1);
+}
+.search-bar{
+    display:flex;
+    align-items: center;
+}
+input[type="text"]{
+    padding:5px;
+    border:2px solid black;
+    border-radius: 5px ;
+    margin-right:5px;
+    transition:transform 0.3s;
+}
+button{
+    background-color:#000000;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    padding: 5px 10px;
+    cursor:pointer;
+    transition:transform 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+
+.title {
+    display: flex;
+    background-color:rgb(67, 191, 244);
+   
+}
+
+.image {
+    flex: 1;  
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+
+  
+}
+
+h1 {
+    text-align: center;
+    -webkit-text-fill-color: #ffffff;
+    color: #fffafa;
+    margin-top: 150px;
+    font-size: 200px; 
+}
+
+h2 {
+   
+    font-size:50px;
+    color: #000000;
+    padding-right: 10px; 
+}
+#brief{
+    font-size:20px;
+    color: #ffffff; /
+
+}
+.contain {
+    display: flex;
+    padding-left:100px;
+}
+
+.item {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+    font-size: larger;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    
+}
+.feature{
+    
+    max-width: 20%;
+    height: auto;
+    display: block;
+    border:4px solid black;
+
+}
+
+footer {
+    
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.new {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.left-half {
+    flex: 1;
+    font-size:50px ;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.right-half {
+    flex: 1;
+    background-color: white;
+    height:600px ;
+    
+}
+.us{
+    padding-top: 300px;
+    
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0;
+    font-size: larger;
+    text-align: center;
+
+
+}
+
+.containerss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.form {
+    width: 50%;
+    padding: 20px;
+}
+
+.form-content {
+    background: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    width: 100%;
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.more{
+    display:inline-block;
+    padding:20px 30px;
+    cursor: pointer;
+    border:0px solid black;
+    color:rgb(255, 255, 255);
+    background-color: #000000;
+    text-align: center;
+    font-size: large;
+}
+.more:hover{
+    background-color: #777171;
+
+}
+footer{
+    padding:10px 585px;
+    font-size:larger;
+    background-color: #000000;
+}
+.carousel-inner {
+    height: 300px;
+  }
+
+  .carousel-item img {
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+  }
+  .smallcontainer{
+    margin: 80px auto;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .cartinfo{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+  }
+  td{
+    padding: 10px 5px;
+  }
+  td input{
+    width: 40px;
+    height: 30px;
+    padding:5px ;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+.totalprice{
+    display: flex;
+    justify-content: flex-end;
+}
+.totalprice table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+.cartinfo p{
+    display: none;
+}

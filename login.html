@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding-top: 150px;
+            padding-left: 400px;
+            padding-right: 400px;
+          font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color:white;
+        }
+        .log{
+            text-align: left;
+            background-color: white;
+            color: black;
+           padding-bottom: 50px;
+            text-align: center;
+            border:3px solid white;
+            border-radius: 20px;
+            transition: transform 0.3s;
+        }
+        .log:hover{
+            transform: scale(1.1);
+        }
+        .submit-button{
+           margin-top: 40px;
+           font-size: large;
+           padding-left: 50px;
+           padding-right: 50px;
+           background-color: rgb(12, 199, 246);
+           color: white;
+           border-radius: 10px;
+           border:0px solid white;
+           transition: transform 0.3s;
+        }
+        .submit-button:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="log">
+    <h1>Sign Up</h1>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" >
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" >
+    <label for="password">Password</label>
+    <input type="password" id="pass" name="pass" >
+    <h3>already a user?</h3>
+    <h1>LOGIN</h1>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" >
+    <label for="password">Password</label>
+    <input type="password" id="pass" name="pass">
+    <br>
+        <button class="submit-button">Submit</button> 
+</div>
+</body>
+</html>
